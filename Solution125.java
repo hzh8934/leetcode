@@ -4,15 +4,9 @@
  * [125] 验证回文串
  */
 
-public class Solution125 {
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        System.out.println(solution.isPalindrome("A man, a plan, a anal: Panama"));
-    }
-}
 
 // @lc code=start
-class Solution {
+class Solution125 {
     public boolean isPalindrome(String s) {
         char[] c = s.toCharArray();
         int start = 0, end = c.length - 1;
