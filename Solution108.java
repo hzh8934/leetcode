@@ -7,12 +7,6 @@
 
 import java.util.Arrays;
 
-class TreeNode {
-   int val;
-   TreeNode left;
-   TreeNode right;
-   TreeNode(int x) { val = x; }
-}
 // @lc code=start
 class Solution108 {
     public TreeNode sortedArrayToBST(int[] nums) {
